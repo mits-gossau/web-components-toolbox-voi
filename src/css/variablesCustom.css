@@ -45,7 +45,6 @@
   --bg-line-height: 1.5em;
   --button-category-background-color-custom:var(--color-quaternary);
   --button-category-background-color-hover-mobile-custom: var(--color-quaternary);
-  --button-primary-label-padding: calc(0.75em - var(--button-primary-border-width, 0px)) calc(1.5em - var(--button-primary-border-width, 0px));
   --color-active: #592037;
   --color-disabled: #592037;
   --color-hover: #b37187;
