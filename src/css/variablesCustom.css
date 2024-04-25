@@ -86,6 +86,7 @@
   --navigation-alnatura-line-height-mobile: 1.5;
   --news-alnatura-line-height-mobile:100%;
   --news-alnatura-line-height:100%;
+  --news-alnatura-li-before-left: -18px;
   --picture-close-btn-background-color:var(--color-secondary);
   --search-input-width-big:100%;
   --teaser-round-figcaption-color: var(--color-secondary);
