@@ -43,8 +43,15 @@
 :root {
   --background-color: #ffffff;
   --bg-line-height: 1.5em;
-  --button-category-background-color-custom:var(--color-quaternary);
-  --button-category-background-color-hover-mobile-custom: var(--color-quaternary);
+  --button-category-color-custom: #ffffff;
+  --button-category-background-color-active-custom: #ffffff;
+  --button-category-color-hover-custom:var(--color-secondary);
+  --button-category-border-width: 2px;
+  --button-category-border-color: var(--color-secondary);
+  --button-category-border-radius-custom: 5px;
+  --button-category-background-color-hover-custom:#ffffff;
+  --button-category-background-color-custom:var(--color-secondary);
+  --button-category-background-color-hover-mobile-custom: var(--color-secondary);
   --color-active: #592037;
   --color-disabled: #592037;
   --color-hover: #b37187;
