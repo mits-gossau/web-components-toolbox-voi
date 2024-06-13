@@ -52,6 +52,10 @@
   --button-category-background-color-hover-custom:#ffffff;
   --button-category-background-color-custom:var(--color-secondary);
   --button-category-background-color-hover-mobile-custom: var(--color-secondary);
+  --button-secondary-background-color-active:var(--color-secondary);
+  --button-secondary-background-color-hover:var(--color-secondary);
+  --button-secondary-color-active: #ffffff;
+  --button-secondary-background-color-hover: var(--color-secondary);
   --color-active: #592037;
   --color-disabled: #592037;
   --color-hover: #b37187;
