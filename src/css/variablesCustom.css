@@ -5,39 +5,43 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 /* font tracking */
-@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=b2e5ea60-e0d9-11ec-b713-06e2001461d0");
+@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=88da0642-fc21-4d15-be42-7baa3508af39");
 
-/* custom alnatura fonts */
+/* custom voi fonts */
 @font-face {
-  font-family: "FrutigerRegular";
-  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Frutiger/Frutiger55Roman.woff2") format("woff2"), url("https://cdn.migros.ch/ch.migros/static/fonts/Frutiger/Frutiger55Roman.woff") format("woff");
-  font-weight: normal;
+  font-family: "UniversLTProNormal";
   font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
   font-display: swap;
+  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_normal_300.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_normal_300.woff') format('woff');
 }
 
 @font-face {
-  font-family: "FrutigerBold";
-  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Frutiger/Frutiger65Bold.woff2") format("woff2"), url("https://cdn.migros.ch/ch.migros/static/fonts/Frutiger/Frutiger65Bold.woff") format("woff");
-  font-weight: normal;
+  font-family: "UniversLTProLight";
   font-style: normal;
+  font-weight: 300;
+  font-stretch: condensed;
   font-display: swap;
+  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_300.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_300.woff') format('woff');
 }
 
 @font-face {
-  font-family: "KalamRegular";
-  src: url("https://cdn.migros.ch/ch.migros/static/fonts/Kalam/Kalam-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "UniversLTPro";
   font-style: normal;
+  font-weight: 400;
+  font-stretch: condensed;
   font-display: swap;
+  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_400.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_400.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Helvetica Neue Condensed';
-  src: url(https://cdn.migros.ch/ch.migros/static/fonts/helveticaneue-condensed-bold/helveticaneue-condensed-bold.woff);
-  font-weight: 600;
+  font-family: "UniversLTProBold";
   font-style: normal;
+  font-weight: 700;
+  font-stretch: condensed;
   font-display: swap;
+  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_700.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_700.woff') format('woff');
 }
 
 :root {
