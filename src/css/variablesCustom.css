@@ -56,4 +56,14 @@
   --font-family: UniversLTProLight, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: UniversLTPro, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-bold: UniversLTProBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
+
+  --h-color: var(--color-secondary);
+  --h1-font-size: calc(1.5 * 1.75em);
+  --h2-color: var(--color-tertiary);
+  --h2-font-family: UniversLTProLight;
+  --h6-font-size: var(--h2-font-size, 1.5em);
+
+  --button-primary-font-family-custom: var(--font-family-bold);
+  --button-primary-border-radius: 2px;
+  --button-secondary-border-radius: 2px;
 }
