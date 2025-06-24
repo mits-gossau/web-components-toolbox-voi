@@ -66,4 +66,20 @@
   --button-primary-font-family-custom: var(--font-family-bold);
   --button-primary-border-radius: 2px;
   --button-secondary-border-radius: 2px;
+
+  --header-default-height-custom: 90px;
+
+  --navigation-default-font-family-custom: var(--font-family);
+
+  --logo-default-a-height: 136px;
+
+  --footer-default-h4-color: var(--m-white);
+  --footer-default-h4-font-size: 1.875rem;
+  --footer-default-ul-li-font-family: var(--font-family-secondary);
+  --footer-default-a-font-size: .9rem;
+  --footer-default-a-color: var(--m-white);
+  --footer-default-a-color-hover: var(--m-white);
+  --footer-default-invert-a-color-hover-custom: var(--m-white);
+  --footer-default-a-text-decoration: none;
+  --footer-default-a-text-decoration-hover: underline;
 }
