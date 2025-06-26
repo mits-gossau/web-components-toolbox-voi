@@ -45,13 +45,13 @@
 }
 
 :root {
-  --background-color: #ffffff;
+  --background-color: var(--m-white);
   --color: #585858;
+  --color-secondary: #4a7729;
+  --color-tertiary: #b5bd00;
+  --color-hover: #2c580c;
   --color-active: var(--color-hover);
   --color-disabled: #cfcac7;
-  --color-secondary: #4a7729;
-  --color-hover: #2c580c;
-  --color-tertiary: #b5bd00;
 
   --font-family: UniversLTProLight, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: UniversLTPro, HelveticaNowText, Helvetica, Arial, sans-serif;
