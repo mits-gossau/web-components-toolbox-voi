@@ -4,10 +4,11 @@
   * - if a component holds other components or nodes you can declare or remap classes eg. :host > h1 {--color: var(--h1-color, white);}
   * - if a component holds other components you should share the attribute namespace with its children
   */
+
 /* font tracking */
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=88da0642-fc21-4d15-be42-7baa3508af39");
 
-/* custom voi fonts */
+/* custom VOI fonts */
 @font-face {
   font-family: "UniversLTProNormal";
   font-style: normal;
@@ -51,7 +52,10 @@
   --color-tertiary: #b5bd00;
   --color-hover: #2c580c;
   --color-active: var(--color-hover);
-  --color-disabled: #cfcac7;
+  --color-disabled: #949494;
+
+  --color-gradient-0: linear-gradient(0deg, var(--primary-green), var(--secondary-green));
+  --color-gradient-45: linear-gradient(45deg, var(--primary-green), var(--secondary-green));
 
   --font-family: UniversLTProLight, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: UniversLTPro, HelveticaNowText, Helvetica, Arial, sans-serif;
@@ -67,13 +71,18 @@
   --button-primary-border-radius: 2px;
   --button-secondary-border-radius: 2px;
 
+  --logo-default-a-width: 120px;
+
   --header-default-background-color-custom: transparent;
   --header-default-height-custom: 90px;
+  --header-default-logo-width-custom: var(--logo-default-a-width);
+  --header-default-content-spacing-mobile: calc(50% - (var(--header-default-logo-width-custom) / 2));
+  --header-default-margin-custom: -20px 0;
+  --header-default-margin-mobile-custom: var(--header-default-margin-custom);
 
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: var(--font-family);
 
-  --logo-default-a-height: 136px;
 
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
@@ -84,4 +93,25 @@
   --footer-default-invert-a-color-hover-custom: var(--m-white);
   --footer-default-a-text-decoration: none;
   --footer-default-a-text-decoration-hover: underline;
+
+  --emotion-pictures-general-h2-color: var(--m-white);
+  --emotion-carousel-default-color-hover-custom: var(--m-white);
+
+  --carousel-two-default-color-hover-custom: var(--m-white);
+
+  /* custom VOI variables */
+  --logo-default-img-background-color: var(--m-white);
+  --logo-default-img-padding: 15px;
+  --logo-default-img-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, .42);
+  --header-default-background: var(--color-gradient-45);
+  --navigation-default-margin-left: 40px;
+  --navigation-default-li-ul-section-top: 32px;
+  --footer-default-invert-background: var(--color-gradient-0)
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --header-default-background-color-custom: var(--color-secondary);
+    --navigation-default-margin-left: 0px;
+  }
 }
