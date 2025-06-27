@@ -100,8 +100,8 @@
   --language-switcher-default-a-color-hover: var(--m-white);
   --language-switcher-default-a-text-decoration: none;
   --language-switcher-default-a-text-decoration-hover: underline;
-  --language-switcher-default-ul-margin: -1.7em 0 0 0;
-  --language-switcher-default-ul-margin-mobile: -1.5em auto 0 0;
+  --language-switcher-default-ul-margin-custom: -1.7em 0 0 0;
+  --language-switcher-default-justify-content: flex-end;
 
   --emotion-pictures-general-h2-color: var(--m-white);
   --emotion-carousel-default-color-hover-custom: var(--m-white);
