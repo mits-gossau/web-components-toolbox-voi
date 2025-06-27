@@ -123,6 +123,5 @@
     --header-default-background-color-custom: var(--color-secondary);
     --header-default-logo-width-custom: var(--logo-default-width-mobile-custom);
     --navigation-default-margin-left: 0px;
-    --language-switcher-default-justify-content: start;
   }
 }
