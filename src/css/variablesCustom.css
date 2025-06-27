@@ -121,5 +121,6 @@
   :root {
     --header-default-background-color-custom: var(--color-secondary);
     --navigation-default-margin-left: 0px;
+    --language-switcher-default-justify-content: start;
   }
 }
