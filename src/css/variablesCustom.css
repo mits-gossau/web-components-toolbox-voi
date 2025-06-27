@@ -71,11 +71,12 @@
   --button-primary-border-radius: 2px;
   --button-secondary-border-radius: 2px;
 
-  --logo-default-a-width: 120px;
+  --logo-default-width-custom: 120px;
+  --logo-default-width-mobile-custom: 80px;
 
   --header-default-background-color-custom: transparent;
   --header-default-height-custom: 90px;
-  --header-default-logo-width-custom: var(--logo-default-a-width);
+  --header-default-logo-width-custom: var(--logo-default-width-custom);
   --header-default-content-spacing-mobile: calc(50% - ((var(--header-default-logo-width-custom) / 2) + var(--logo-default-img-padding)));
   --header-default-margin-custom: -20px 0;
   --header-default-margin-mobile-custom: var(--header-default-margin-custom);
@@ -119,8 +120,8 @@
 
 @media only screen and (max-width: 1200px) {
   :root {
-    --logo-default-a-width: 80px;
     --header-default-background-color-custom: var(--color-secondary);
+    --header-default-logo-width-custom: var(--logo-default-width-mobile-custom);
     --navigation-default-margin-left: 0px;
     --language-switcher-default-justify-content: start;
   }
