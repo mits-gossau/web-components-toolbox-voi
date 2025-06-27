@@ -54,8 +54,8 @@
   --color-active: var(--color-hover);
   --color-disabled: #949494;
 
-  --color-gradient-0: linear-gradient(0deg, var(--primary-green), var(--secondary-green));
-  --color-gradient-45: linear-gradient(45deg, var(--primary-green), var(--secondary-green));
+  --color-gradient-0: linear-gradient(0deg, var(--color-secondary), var(--color-tertiary));
+  --color-gradient-45: linear-gradient(45deg, var(--color-secondary), var(--color-tertiary));
 
   --font-family: UniversLTProLight, HelveticaNowText, Helvetica, Arial, sans-serif;
   --font-family-secondary: UniversLTPro, HelveticaNowText, Helvetica, Arial, sans-serif;
