@@ -85,8 +85,7 @@
   --header-default-margin-mobile-custom: var(--header-default-margin-custom);
 
   --navigation-default-section-background-color: var(--color-secondary);
-  --navigation-default-font-family-custom: var(--font-family-secondary);
-
+  --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
 
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
@@ -110,6 +109,12 @@
   --emotion-carousel-default-color-hover-custom: var(--m-white);
 
   --carousel-two-default-color-hover-custom: var(--m-white);
+
+  --details-default-h4-font-family: UniversLTProLight, var(--font-family-secondary);
+  --details-default-h4-font-size: 1.5625rem;
+  --details-default-summary-font-family: var(--font-family);
+  --details-default-border-top-custom: 1px solid var(--color-primary);
+  --details-default-summary-border-bottom-open-custom: none;
 
   /* custom VOI variables */
   --logo-default-img-background-color: var(--m-white);
