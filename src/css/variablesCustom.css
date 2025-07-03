@@ -116,11 +116,15 @@
   --details-default-border-top-custom: 1px solid var(--color-primary);
   --details-default-summary-border-bottom-open-custom: none;
 
-  /* custom VOI variables */
+  /* custom VOI-specific variables */
   --logo-default-img-background-color: var(--m-white);
   --logo-default-img-padding: 15px;
   --logo-default-img-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, .42);
   --header-default-background: var(--color-gradient-45);
+  --navigation-default-color-active-custom: var(--m-white);
+  --navigation-top-a-link-font-size-custom: 1.5rem;
+  --navigation-sub-title-link-font-size-custom: 1.7rem;
+  --navigation-sub-a-link-font-size-custom: 1.5rem;
   --navigation-default-margin-left: 40px;
   --navigation-default-li-ul-section-top: 32px;
   --footer-default-invert-background: var(--color-gradient-0)
