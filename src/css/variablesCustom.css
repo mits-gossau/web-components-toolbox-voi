@@ -86,6 +86,7 @@
 
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
+  --navigation-default-section-margin-top-desktop: -8px;
 
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
@@ -102,8 +103,8 @@
   --language-switcher-default-a-color-hover: var(--m-white);
   --language-switcher-default-a-text-decoration: none;
   --language-switcher-default-a-text-decoration-hover: underline;
-  --language-switcher-default-ul-margin-custom: -3.7em 0 0 0;
-  --language-switcher-default-ul-margin-mobile: -5.2em 0 0 0;
+  --language-switcher-default-ul-margin-custom: 0 0 0 0;
+  --language-switcher-default-ul-margin-mobile: 0 0 0 0;
 
   --emotion-pictures-general-h2-color: var(--m-white);
   --emotion-carousel-default-color-hover-custom: var(--m-white);
@@ -127,7 +128,8 @@
   --navigation-sub-a-link-font-size-custom: 1.5rem;
   --navigation-default-margin-left: 40px;
   --navigation-default-li-ul-section-top: 32px;
-  --footer-default-invert-background: var(--color-gradient-0)
+  --footer-default-invert-background: var(--color-gradient-0);
+  --footer-default-footer-copyright-align-self-custom: start;
 }
 
 @media only screen and (max-width: 1200px) {
