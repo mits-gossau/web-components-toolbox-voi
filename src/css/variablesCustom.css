@@ -51,7 +51,7 @@
   --color-secondary: #4a7729;
   --color-tertiary: #b5bd00;
   --color-hover: #2c580c;
-  --color-active: var(--color-hover);
+  --color-active: var(--color-tertiary);
   --color-disabled: #949494;
 
   --color-gradient-0: linear-gradient(0deg, var(--color-secondary), var(--color-tertiary));
@@ -87,6 +87,8 @@
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
   --navigation-default-section-margin-top-desktop: -8px;
+  --navigation-default-text-decoration-hover: underline;
+  --navigation-default-text-decoration-active : none;
 
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
@@ -117,12 +119,15 @@
   --details-default-border-top-custom: 1px solid var(--color-primary);
   --details-default-summary-border-bottom-open-custom: none;
 
+  --any-margin-top-first-child: 42px;
+  --any-margin-top-first-child-mobile: 42px;
+
   /* custom VOI-specific variables */
   --logo-default-img-background-color: var(--m-white);
   --logo-default-img-padding: 15px;
   --logo-default-img-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, .42);
   --header-default-background: var(--color-gradient-45);
-  --navigation-default-color-active-custom: var(--m-white);
+  --header-default-height-custom: var(--header-default-height);
   --navigation-top-a-link-font-size-custom: 1.5rem;
   --navigation-sub-title-link-font-size-custom: 1.7rem;
   --navigation-sub-a-link-font-size-custom: 1.5rem;
@@ -136,6 +141,7 @@
   :root {
     --header-default-background-color-custom: var(--color-secondary);
     --header-default-logo-width-custom: var(--logo-default-width-mobile-custom);
+    --header-default-height-custom: var(--header-default-height-mobile-custom);
     --navigation-default-margin-left: 0px;
   }
 }
