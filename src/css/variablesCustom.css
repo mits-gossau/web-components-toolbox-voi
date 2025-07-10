@@ -134,13 +134,20 @@
   --navigation-default-li-ul-section-top: 32px;
   --footer-default-invert-background: var(--color-gradient-0);
   --footer-default-footer-copyright-align-self-custom: start;
+  --form-default-field-validation-error-color: #e02805;
 }
 
 @media only screen and (max-width: 1200px) {
   :root {
     --header-default-background-color-custom: var(--color-secondary);
     --header-default-logo-width-custom: var(--logo-default-width-mobile-custom);
-    --header-default-height-custom: var(--header-default-height-mobile);
+    --header-default-height-custom: 80px;
     --navigation-default-margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --header-default-height-custom: 70px;
   }
 }
