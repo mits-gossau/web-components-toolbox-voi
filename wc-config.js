@@ -235,6 +235,11 @@
       selector: 'voi-o-',
       url: 'organisms/',
       separateFolder: true
+    },
+    {
+      selector: 'voi-msrc-',
+      url: 'msrc/',
+      separateFolder: true
     }
   ] // directories
   // ↑↑↑ adjustable ↑↑↑
