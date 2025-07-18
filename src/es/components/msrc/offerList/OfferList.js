@@ -50,17 +50,7 @@ export default class OfferList extends Intersection(Prototype()) {
 
   configSetup () {
     // https://react-components.migros.ch/?path=/docs/msrc-articles-04-widgets-offer-list--documentation
-    const setup = this.constructor.parseAttribute(this.getAttribute('config') || '{}')
-    if (!setup || Object.keys(setup).length === 0) return
-    if (this.hasAttribute('api-key')) setup.apiKey = this.getAttribute('api-key') || ''
-    if (this.hasAttribute('api-uri')) setup.apiUri = this.getAttribute('api-uri') || ''
-    if (this.hasAttribute('mode')) setup.mode = this.getAttribute('mode') || 'default'
-    if (this.hasAttribute('env')) setup.environment = this.getAttribute('env') || 'local'
-    if (this.hasAttribute('language')) setup.language = this.getAttribute('language') || 'de'
-    if (this.hasAttribute('order')) setup.sort = this.getAttribute('order') || 'desc'
-    if (this.hasAttribute('sort')) setup.sort = this.getAttribute('sort') || 'updated_at'
-    if (this.hasAttribute('pagination-disabled') && setup.paginationOptions) setup.paginationOptions.disabled = (this.getAttribute('pagination-disabled') === 'true')
-    return setup
+    return this.constructor.parseAttribute(this.getAttribute('config') || '{}')
   }
 
   /**
