@@ -67,6 +67,10 @@
   --h2-font-family: var(--font-family);
   --h6-font-size: var(--h2-font-size, 1.5em);
 
+  --bg-padding: 0.5em;
+  --bg-padding-top: 0.4em;
+  --bg-padding-bottom: 0.2em;
+
   --button-primary-font-family-custom: var(--font-family-bold);
   --button-primary-height: 2.8rem;
   --button-primary-font-size: 1.25rem;
@@ -88,7 +92,8 @@
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
   --navigation-default-section-margin-top-desktop: -8px;
   --navigation-default-text-decoration-hover: underline;
-  --navigation-default-text-decoration-active : none;
+  --navigation-default-text-decoration-active: none;
+  --navigation-default-border-width: 4px;
 
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
@@ -132,6 +137,8 @@
   --navigation-sub-a-link-font-size-custom: 1.5rem;
   --navigation-default-margin-left: 40px;
   --navigation-default-li-ul-section-top: 32px;
+  --navigation-default-li-ul-section-ul-li-margin: var(--content-spacing);
+  --navigation-default-li-ul-section-ul-li-margin-first-child: 0;
   --footer-default-invert-background: var(--color-gradient-0);
   --footer-default-footer-copyright-align-self-custom: start;
   --form-default-field-validation-error-color: #e02805;
