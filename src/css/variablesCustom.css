@@ -146,6 +146,7 @@
   --footer-default-invert-background: var(--color-gradient-0);
   --footer-default-footer-copyright-align-self-custom: start;
   --form-default-field-validation-error-color: #e02805;
+  --offerlist-default-margin: 0 0 50px 0;
 }
 
 @media only screen and (max-width: 1200px) {

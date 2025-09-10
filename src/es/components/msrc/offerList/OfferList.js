@@ -89,7 +89,9 @@ export default class OfferList extends Intersection(Prototype()) {
 
   renderCSS () {
     this.css = /* css */`
-
+      :host > div{
+        margin: var(--offerlist-default-margin, 0);
+      }
     `
   }
 }
