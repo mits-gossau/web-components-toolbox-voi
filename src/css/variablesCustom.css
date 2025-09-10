@@ -90,7 +90,7 @@
 
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
-  --navigation-default-section-margin-top-desktop: -8px;
+  --navigation-default-section-margin-top-desktop: -10px;
   --navigation-default-text-decoration-hover: underline;
   --navigation-default-text-decoration-active: none;
   --navigation-default-border-width: 4px;
@@ -124,7 +124,7 @@
   --details-default-border-top-custom: 1px solid var(--color-primary);
   --details-default-summary-border-bottom-open-custom: none;
 
-  --any-margin-top-first-child: 52px;
+  --any-margin-top-first-child: 70px;
   --any-margin-top-first-child-mobile: 42px;
 
   /* custom VOI-specific variables */
@@ -135,7 +135,8 @@
   --navigation-top-a-link-font-size-custom: 1.5rem;
   --navigation-sub-title-link-font-size-custom: 1.7rem;
   --navigation-sub-a-link-font-size-custom: 1.5rem;
-  --navigation-default-margin-left: 40px;
+  --navigation-default-margin-left: 80px;
+  --navigation-default-color-active-custom: var(--m-white);
   --navigation-default-li-ul-section-top: 32px;
   --navigation-default-li-ul-section-ul-li-margin: var(--content-spacing);
   --navigation-default-li-ul-section-ul-li-margin-first-child: 0;
