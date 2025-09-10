@@ -87,9 +87,13 @@
   --header-default-content-spacing-mobile: calc(50% - ((var(--header-default-logo-width-custom) / 2) + var(--logo-default-img-padding)));
   --header-default-margin-custom: -20px 0;
   --header-default-margin-mobile-custom: var(--header-default-margin-custom);
+  --header-default-m-navigation-padding-open-mobile: 30px 0 0;
 
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
+  --navigation-default-li-ul-section-ul-li-margin-first-child: 25px 0 0;
+  --navigation-default-path-color-hover: var(--m-white);
+  --navigation-default-path-color: var(--m-white);
   --navigation-default-section-margin-top-desktop: -10px;
   --navigation-default-text-decoration-hover: underline;
   --navigation-default-text-decoration-active: none;
@@ -157,5 +161,6 @@
 @media only screen and (max-width: 768px) {
   :root {
     --header-default-height-custom: 70px;
+    --navigation-default-li-ul-section-ul-li-margin-first-child: 15px 0 0;
   }
 }
