@@ -91,7 +91,6 @@
 
   --navigation-default-section-background-color: var(--color-secondary);
   --navigation-default-font-family-custom: UniversLTProLight, var(--font-family-secondary);
-  --navigation-default-li-ul-section-ul-li-margin-first-child: 25px 0 0;
   --navigation-default-path-color-hover: var(--m-white);
   --navigation-default-path-color: var(--m-white);
   --navigation-default-section-margin-top-desktop: -10px;
@@ -143,7 +142,7 @@
   --navigation-default-color-active-custom: var(--m-white);
   --navigation-default-li-ul-section-top: 32px;
   --navigation-default-li-ul-section-ul-li-margin: var(--content-spacing);
-  --navigation-default-li-ul-section-ul-li-margin-first-child: 0;
+  --navigation-default-li-ul-section-ul-li-margin-first-child: 25px 0 0;
   --footer-default-invert-background: var(--color-gradient-0);
   --footer-default-footer-copyright-align-self-custom: start;
   --form-default-field-validation-error-color: #e02805;
