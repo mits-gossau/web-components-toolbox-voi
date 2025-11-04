@@ -98,6 +98,9 @@
   --navigation-default-text-decoration-active: none;
   --navigation-default-border-width: 4px;
 
+  --emotion-carousel-default-any-margin-top-first-child-custom: 0;
+  --emotion-carousel-default-any-margin-top-first-child-mobile-custom: 0;
+
   --footer-default-h4-color: var(--m-white);
   --footer-default-h4-font-size: 1.875rem;
   --footer-default-ul-li-font-family: UniversLTPro, var(--font-family-secondary);
