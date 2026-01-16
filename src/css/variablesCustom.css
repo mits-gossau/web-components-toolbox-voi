@@ -130,6 +130,12 @@
   --details-default-border-top-custom: 1px solid var(--color-primary);
   --details-default-summary-border-bottom-open-custom: none;
 
+  --teaser-default-font-family: HelveticaNowText;
+  --teaser-default-border-radius-custom: 8px;
+  --teaser-default-a-picture-width-custom: calc(100% - 20px);
+  --teaser-default-h2-font-size: 12px;
+  --teaser-default-h2-font-family: HelveticaNowTextBold;
+
   --teaser-overlay-bg-padding-top-custom: 9.6px;
 
   --any-margin-top-first-child: 70px;
