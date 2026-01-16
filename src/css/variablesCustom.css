@@ -132,6 +132,7 @@
 
   --teaser-default-font-family: HelveticaNowText;
   --teaser-default-border-radius-custom: 8px;
+  --teaser-default-a-margin: 0;
   --teaser-default-a-picture-width-custom: calc(100% - 20px);
   --teaser-default-h2-font-size: 12px;
   --teaser-default-h2-font-family: HelveticaNowTextBold;
