@@ -111,6 +111,7 @@
   --footer-default-a-text-decoration: none;
   --footer-default-a-text-decoration-hover: underline;
 
+  --language-switcher-default-width: auto;
   --language-switcher-default-a-font-size: 14px;
   --language-switcher-default-a-color: var(--m-white);
   --language-switcher-default-a-color-hover: var(--m-white);
