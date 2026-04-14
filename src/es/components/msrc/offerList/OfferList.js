@@ -9,7 +9,7 @@ export default class OfferList extends Intersection(Prototype()) {
       ...options
     }, ...args)
     this.config = this.configSetup()
-    self.Environment.msrcVersion = '20250905080930'
+    self.Environment.msrcVersion = '20260323090506'
   }
 
   connectedCallback () {
