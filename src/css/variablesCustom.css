@@ -9,58 +9,44 @@
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=88da0642-fc21-4d15-be42-7baa3508af39");
 
 /* custom VOI fonts */
+@font-face{
+	font-family:"HelveticaNowDisplay";
+	src:url("https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayW05-Rg.woff2") format("woff2"),url("https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayW05-Rg.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+ 
+@font-face{
+	font-family:"HelveticaNowDisplayBold";
+	src:url("https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayW05-Bold.woff2") format("woff2"),url("https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayW05-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
 @font-face {
-  font-family: "UniversLTPro";
+  font-family: "HelveticaNowDisplayLight";
   font-style: normal;
   font-weight: 300;
-  font-stretch: normal;
-  font-display: swap;
-  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_normal_300.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_normal_300.woff') format('woff');
-}
-
-@font-face {
-  font-family: "UniversLTProLight";
-  font-style: normal;
-  font-weight: 300;
   font-stretch: condensed;
   font-display: swap;
-  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_300.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_300.woff') format('woff');
-}
-
-@font-face {
-  font-family: "UniversLTProCondensed";
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: condensed;
-  font-display: swap;
-  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_400.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_400.woff') format('woff');
-}
-
-@font-face {
-  font-family: "UniversLTProBold";
-  font-style: normal;
-  font-weight: 700;
-  font-stretch: condensed;
-  font-display: swap;
-  src: url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_700.woff2') format('woff2'), url('https://cdn.migros.ch/ch.migros/static/fonts/univers/UniversLTPro_normal_condensed_700.woff') format('woff');
+  src: url('	https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayLight.woff2') format('woff2'), url('	https://cdn.migros.ch/ch.migros/static/fonts/helvetica-now/HelveticaNowDisplayLight.woff') format('woff');
 }
 
 :root {
   --background-color: var(--m-white);
   --color: #585858;
-  --color-secondary: #4a7729;
-  --color-tertiary: #b5bd00;
-  --color-hover: #2c580c;
+  --color-secondary: #217833;
+  --color-tertiary: #FF6600;
+  --color-hover: #145522;
   --color-active: var(--color-tertiary);
   --color-disabled: #949494;
-  --color-rebrand: #217833;
+  --color-footer: #a6c9ad;
 
-  --color-gradient-0: linear-gradient(0deg, var(--color-secondary), var(--color-tertiary));
-  --color-gradient-45: linear-gradient(45deg, var(--color-secondary), var(--color-tertiary));
-
-  --font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
-  --font-family-secondary: HelveticaNowText, Helvetica, Arial, sans-serif;
-  --font-family-bold: HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
+  --font-family: HelveticaNowDisplay, HelveticaNowText, Helvetica, Arial, sans-serif;
+  --font-family-secondary: HelveticaNowDisplayLight, HelveticaNowDisplay, Helvetica, Arial, sans-serif;
+  --font-family-bold: HelveticaNowDisplayBold, HelveticaNowDisplay, Helvetica, Arial, sans-serif;
 
   --h-color: var(--color-secondary);
   --h1-font-size: calc(1.5 * 1.75em);
@@ -74,7 +60,7 @@
 
   --button-primary-font-family-custom: var(--font-family-bold);
   --button-primary-height: 2.8rem;
-  --button-primary-font-size: 1.25rem;
+  --button-primary-font-size: 1.1rem;
   --button-primary-padding: 0.2rem 1rem 0 1rem;
   --button-primary-border-radius: 2px;
   --button-secondary-border-radius: 2px;
@@ -83,7 +69,7 @@
   --logo-default-width-mobile-custom: 160px;
   --logo-default-width: 100%;
 
-  --header-default-background-color-custom: var(--color-rebrand);
+  --header-default-background-color-custom: var(--color-secondary);
   --header-default-height-custom: 90px;
   --header-default-logo-width-custom: var(--logo-default-width-custom);
   --header-default-content-spacing-mobile: calc(50% - ((var(--header-default-logo-width-custom) / 2) + var(--logo-default-img-padding)));
@@ -102,17 +88,21 @@
 
   --emotion-carousel-default-any-margin-top-first-child-custom: 0;
   --emotion-carousel-default-any-margin-top-first-child-mobile-custom: 0;
+  --emotion-carousel-default-color-hover-custom: var(--m-white);
 
-  --footer-default-h4-color: var(--m-white);
-  --footer-default-h4-font-size: 1.875rem;
+  --footer-default-h4-color: var(--m-black);
+  --footer-default-h4-font-size: 1.7rem;
   --footer-default-ul-li-font-family: var(--font-family-secondary);
+  --footer-default-ul-li-font-size: var(--footer-default-a-font-size);
   --footer-default-a-font-size: .9rem;
   --footer-default-a-color: var(--m-white);
   --footer-default-a-color-hover: var(--m-white);
-  --footer-default-invert-a-color-hover-custom: var(--m-white);
   --footer-default-a-text-decoration: none;
   --footer-default-a-text-decoration-hover: underline;
-  --footer-default-invert-background-color-custom: var(--color-rebrand);
+  --footer-default-invert-a-color-hover-custom: var(--m-black);
+  --footer-default-invert-color-custom: var(--footer-default-h4-color);
+  --footer-default-invert-background: var(--color-footer);
+  --footer-default-invert-background-color-custom: var(--color-footer);
 
   --language-switcher-default-width: auto;
   --language-switcher-default-a-font-size: 14px;
@@ -123,8 +113,11 @@
   --language-switcher-default-ul-margin-custom: 0 0 0 0;
   --language-switcher-default-ul-margin-mobile: 0 0 0 0;
 
+  --emotion-pictures-general-h1-font-size: 2em;
   --emotion-pictures-general-h2-color: var(--m-white);
-  --emotion-carousel-default-color-hover-custom: var(--m-white);
+  --emotion-pictures-general-h2-font-size-mobile-custom: 1.6em;
+  --emotion-pictures-general-subline-font-size-custom: 1.1em;
+  --emotion-pictures-general-subline-display-mobile-custom: inline;
 
   --carousel-two-default-color-hover-custom: var(--m-white);
 
@@ -151,8 +144,8 @@
   --logo-default-img-background-color: var(--m-white);
   --logo-default-img-padding: 15px;
   --logo-default-img-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, .42);
-  --header-default-background: var(--color-rebrand);
-  --navigation-top-a-link-font-size-custom: 1.2rem;
+  --header-default-background: var(--color-secondary);
+  --navigation-top-a-link-font-size-custom: 1.3rem;
   --navigation-sub-title-link-font-size-custom: 1.7rem;
   --navigation-sub-a-link-font-size-custom: 1.5rem;
   --navigation-default-margin-left: 80px;
@@ -160,8 +153,7 @@
   --navigation-default-li-ul-section-top: 32px;
   --navigation-default-li-ul-section-ul-li-margin: var(--content-spacing);
   --navigation-default-li-ul-section-ul-li-margin-first-child: 25px 0 0;
-  --footer-default-invert-background: var(--color-rebrand);
-  --footer-default-footer-copyright-align-self-custom: center;
+  --footer-default-invert-background: var(--color-secondary);
   --form-default-field-validation-error-color: #e02805;
   --offerlist-default-margin: 0 0 50px 0;
 }
@@ -180,5 +172,6 @@
   :root {
     --header-default-height-custom: 70px;
     --navigation-default-li-ul-section-ul-li-margin-first-child: 15px 0 0;
+    --emotion-pictures-general-bg-line-height-secondary-custom: 250%;
   }
 }
