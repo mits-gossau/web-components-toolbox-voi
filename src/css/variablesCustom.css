@@ -61,7 +61,7 @@
   --button-primary-font-family-custom: var(--font-family-bold);
   --button-primary-height: 2.8rem;
   --button-primary-font-size: 1.1rem;
-  --button-primary-padding: 0.2rem 1rem 0 1rem;
+  --button-primary-padding: 0 1rem;
   --button-primary-border-radius: 2px;
   --button-secondary-border-radius: 2px;
 
@@ -118,6 +118,7 @@
   --emotion-pictures-general-h2-font-size-mobile-custom: 1.6em;
   --emotion-pictures-general-subline-font-size-custom: 1.1em;
   --emotion-pictures-general-subline-display-mobile-custom: inline;
+  --emotion-pictures-general-bg-padding-top: 0.3em;
 
   --carousel-two-default-color-hover-custom: var(--m-white);
 
@@ -135,7 +136,9 @@
   --teaser-default-h2-font-size: 12px;
   --teaser-default-h2-font-family: HelveticaNowTextBold;
 
-  --teaser-overlay-bg-padding-top-custom: 9.6px;
+	--teaser-overlay-bg-line-height: 180%;
+  --teaser-overlay-bg-padding-top-custom: 0;
+	--teaser-overlay-bg-padding-bottom: 0;
 
   --any-margin-top-first-child: 70px;
   --any-margin-top-first-child-mobile: 42px;
@@ -164,7 +167,6 @@
     --header-default-logo-width-custom: var(--logo-default-width-mobile-custom);
     --header-default-height-custom: 80px;
     --navigation-default-margin-left: 0px;
-    --teaser-overlay-bg-padding-top-custom: 8.4px;
   }
 }
 
