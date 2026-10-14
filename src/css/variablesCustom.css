@@ -140,6 +140,12 @@
   --teaser-overlay-bg-padding-top-custom: 0;
 	--teaser-overlay-bg-padding-bottom: 0;
 
+  --bull-li-before-width: 0.5em;
+  --bull-li-before-height: 0.5em;
+	
+	--big-li-before-font-size: 1.3em;
+	--big-li-before-top: -0.2em;
+
   --any-margin-top-first-child: 70px;
   --any-margin-top-first-child-mobile: 42px;
 
